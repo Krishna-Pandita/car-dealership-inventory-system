@@ -19,7 +19,7 @@ describe("POST /api/auth/register", () => {
       .post("/api/auth/register")
       .send({
         name: "Krishna",
-        email: "krishna@example.com",
+        email: "krishna1@example.com",
         password: "password123",
       });
 
